@@ -14,4 +14,7 @@ func main() {
 	a = true
 	fmt.Printf("%T %v\n", a, a)
 
+	a = func() string { return "hello" }
+	fmt.Printf("%T %v\n", a, a)
+
 }
