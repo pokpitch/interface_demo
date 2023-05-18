@@ -11,4 +11,7 @@ func main() {
 	a = "ten"
 	fmt.Printf("%T %v\n", a, a)
 
+	a = true
+	fmt.Printf("%T %v\n", a, a)
+
 }
